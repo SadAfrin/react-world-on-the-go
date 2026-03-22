@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* হরাইজন্টালি মাঝখানে আনবে */
+  align-items: center;     /* ভার্টিক্যালি মাঝখানে আনবে */
+  
+  /* পুরো স্ক্রিন দখল করার জন্য */
+  height: 100vh;           
+  width: 100%;
+  
+  /* index.css এ যদি কোনো মার্জিন বা প্যাডিং থাকে তা রিসেট করতে */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
